@@ -6,7 +6,7 @@ word_list = ['9999912345','1234567890',
 
 
 
-pattern=''
+pattern='^[7-9]{1}[0-9]{9}$'
 
 
 for word in word_list:
