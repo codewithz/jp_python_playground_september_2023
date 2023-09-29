@@ -39,3 +39,17 @@ print("Second",second)
 print(40*"-")
 second.discard(4)
 print("Second",second)
+
+
+print("--------------- Set Operations --------------------")
+print("First:",first)
+print("Second:",second)
+
+print("Union:",first.union(second))
+
+print("Intersection:",first.intersection(second))
+
+print("Difference:",first.difference(second))
+print("Difference:",second.difference(first))
+
+print("Symmetric Difference",first.symmetric_difference(second))
