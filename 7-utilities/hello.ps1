@@ -1,0 +1,1 @@
+echo "Running from a Powershell invoked by Python"
